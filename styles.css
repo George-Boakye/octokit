@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+main{
+margin: 100px auto;
+background-color: #fff;
+width: 600px;
+height: 500px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: 8px;
+text-align: center;
+padding: 20px;
+}
+figure{
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+figure img{
+    width: 100%;
+}
+.details{
+    margin-top: 50px;
+    text-align: left;
+}
+.details p{
+font-size: 20px;
+}
