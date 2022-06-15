@@ -7,7 +7,7 @@ let name = document.getElementById("name");
 let username =  document.getElementById("username");
 let id = document.getElementById("id");
 let profileLink = document.getElementById("url");
-let email = document.getElementById("repos");
+let repos = document.getElementById("repos");
 let location = document.getElementById("location");
 let img = document.createElement("img")
 
@@ -31,6 +31,6 @@ octokit.users
     username.innerHTML =`<strong>Username</strong>: ${bioData.login}`;
     id.innerHTML =`<strong>id</strong>: ${bioData.id}`;
     profileLink.innerHTML =`<strong>Github URL</strong>: ${bioData.url}`;
-    email.innerHTML =`<strong>Public Repo</strong>: ${bioData.public_repos}`;
+    repos.innerHTML =`<strong>Public Repo</strong>: ${bioData.public_repos}`;
     location.innerHTML =`<strong>Location</strong>: ${bioData.location}`;
   }
